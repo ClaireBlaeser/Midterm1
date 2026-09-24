@@ -20,8 +20,8 @@
             --color-text-light: white;
 
             /* Typography */
-            --font-primary: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-            --font-secondary: 'Roboto Mono', monospace;
+            --font-primary: 'Silkscreen';
+            --font-secondary: 'sweet-square-pro';
 
             /* Spacing System */
             --spacing-xs: 0.25rem;
@@ -85,6 +85,30 @@
         .small-text {
             font-size: 0.75rem;
             color: color-mix(in srgb, var(--color-text-dark) 70%, transparent);
+        }
+        
+        .silkscreen-regular {
+            font-family: "Silkscreen", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .silkscreen-bold {
+            font-family: "Silkscreen", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        
+        .sweetsquarepro-light {
+            font-family: "sweet-square-pro", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .sweetsquarepro-medium {
+            font-family: "sweet-square-pro", sans-serif;
+            font-weight: 700;
+            font-style: normal;
         }
 
         /* Color Palette Section */
@@ -157,7 +181,10 @@
             height: 50px;
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/gip3spy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -167,29 +194,39 @@
             <h2>Color Palette</h2>
             <div class="color-palette">
                 <div class="color-swatch" style="background-color: var(--color-primary); color: var(--color-text-light);">
+                    
                     <strong>Primary Color</strong>
                     <p>#00856f</p>
                     <small>Contrast Ratio: 4.6:1</small>
+
                 </div>
                 <div class="color-swatch" style="background-color: var(--color-secondary); color: var(--color-text-light);">
+                    
                     <strong>Secondary Color</strong>
                     <p>#4476a2</p>
                     <small>Contrast Ratio: 4.8:1</small>
+
                 </div>
                 <div class="color-swatch" style="background-color: var(--color-accent); color: var(--color-text-light);">
+                    
                     <strong>Accent Color</strong>
                     <p>#ab2346</p>
                     <small>Contrast Ratio: 6.9:1</small>
+
                 </div>
                 <div class="color-swatch" style="background-color: var(--color-neutral); color: var(--color-text-light);">
+                    
                     <strong>Neutral Color</strong>
                     <p>#191516</p>
                     <small>Contrast Ratio: 18.1:1</small>
+
                 </div>
                 <div class="color-swatch" style="background-color: var(--color-highlight); color: var(--color-text-dark);">
+                    
                     <strong>Highlight Color</strong>
                     <p>#03f7eb</p>
                     <small>Contrast Ratio: 15.5:1</small>
+
                 </div>
             </div>
         </section>
@@ -199,8 +236,8 @@
             <h1>Heading 1 - Space Grotesk</h1>
             <h2>Heading 2 - Space Grotesk</h2>
             <h3>Heading 3 - Space Grotesk</h3>
-            <p class="body-text">Body Text - Using Space Grotesk with a comfortable line height and readable size.</p>
-            <p class="small-text">Small Text - Subtle and understated, perfect for annotations and footnotes.</p>
+            <p class="body-text">Body Text - Using Sweet Square Pro.</p>
+            <p class="small-text">Small Text - Using Sweet Square Pro.</p>
         </section>
 
         <section>
